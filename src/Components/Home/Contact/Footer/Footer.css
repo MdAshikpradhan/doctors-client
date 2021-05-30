@@ -1,0 +1,15 @@
+.footerBg {
+    background-image: url(../../../../images/footer-bg.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.footerIcon > .icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
