@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import firebase from "firebase/app";
 import "firebase/auth";
-import { UserContext } from '../../../App';
 import { useHistory, useLocation } from 'react-router-dom';
 import LoginBg from '../../../images/loginBg.png';
 import firebaseConfig from './firebaseConfig';
+import { UserContext } from '../../../App';
 
 const Login = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
